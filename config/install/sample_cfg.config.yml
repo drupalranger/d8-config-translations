@@ -1,0 +1,15 @@
+# array of links
+homepage_links:
+  -
+    title: Call to action
+    url: http://www.example.com
+  -
+    title: Call to action
+    url: http://www.example.com
+  -
+    title: Call to action
+    url: http://www.example.com
+# initial language for original config object
+language: 'en'
+# mark as translatable
+translatable: TRUE

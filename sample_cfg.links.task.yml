@@ -1,0 +1,5 @@
+# our form needs at least one tab, thanks to that translation tab will be added automatically
+sample_cfg.homepage_settings:
+  title: 'Settings'
+  route_name: sample_cfg.admin_settings
+  base_route: sample_cfg.admin_settings

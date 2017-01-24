@@ -1,0 +1,7 @@
+sample_cfg.admin_settings:
+  path: '/admin/config/sample_cfg'
+  defaults:
+    _form: '\Drupal\sample_cfg\Form\sampleCfgHomepageForm'
+    _title: 'sample configuration form'
+  requirements:
+    _permission: 'administer sample_cfg'

@@ -1,0 +1,22 @@
+# schema for homepage links configuration
+sample_cfg.config:
+  type: config_object
+  label: 'sample homepage configuration'
+  mapping:
+    homepage_links:
+      # sequence is a list without keys, like an array..
+      type: sequence
+      label: 'Homepage links'
+      # .. it can store another sequence
+      sequence:
+        # ... and each sequence can store customized mapping
+        type: mapping
+        label: 'Translation'
+        mapping:
+          title:
+            type: text
+            label: 'Title'
+          url:
+            # we can use type "text" because our configuration form has form elements of type url
+            type: text
+            label: 'URL'

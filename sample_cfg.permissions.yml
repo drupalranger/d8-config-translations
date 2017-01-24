@@ -1,0 +1,3 @@
+'administer sample_cfg':
+  title: 'Access sample website configuration area'
+  description: 'Allows user to access website-specifing configuration areas.'

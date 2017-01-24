@@ -1,0 +1,6 @@
+# expose our route and configuration object name for config translation module
+sample_cfg:
+  title: 'sample homepage configuration'
+  base_route_name: sample_cfg.admin_settings
+  names:
+    - sample_cfg.config

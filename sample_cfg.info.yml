@@ -1,0 +1,8 @@
+name: sample website configuration
+description: Configuration form
+package: sample
+
+type: module
+core: 8.x
+
+configure: sample_cfg.admin_settings
