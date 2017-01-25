@@ -6,3 +6,6 @@ type: module
 core: 8.x
 
 configure: sample_cfg.admin_settings
+
+dependencies:
+  - config_translation:config_translation
